@@ -1,17 +1,14 @@
 import "./App.css";
+import ProductTab from "./ProductTab";
 
-function Title(){
-return(
-    <h1>My name is Dharm veer verma  </h1>
-)
-  
-};
+import  Title  from "./title";
 
 function App() {
   return (
     <>
     <Title/> 
     <button>click me</button>
+    <ProductTab/>
     </>
   )
 }
