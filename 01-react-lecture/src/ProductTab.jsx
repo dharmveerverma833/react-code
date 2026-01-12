@@ -6,8 +6,8 @@ function ProductTab(){
     return(                  
         <>
        <Myprodect title="Leptop" price={50000} features={options} />
-       {/* <Myprodect title="Mobile" price={20000} />
-       <Myprodect title="Tablet" price={"offer"} />      */}
+       <Myprodect title="Mobile" price={20000} features={options} />
+       <Myprodect title="Tablet" price={"offer"&& 30000} features={options} />     
         </>
     );
 }
