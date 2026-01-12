@@ -1,0 +1,12 @@
+.Myprodect{
+    height: 10rem;
+    width: 18rem;
+    border: 20px solid rgb(238, 226, 226);
+   
+    margin: 14px;
+    margin-left: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: blue;
+    
+}

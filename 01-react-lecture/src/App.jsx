@@ -1,12 +1,12 @@
 import "./App.css";
 import ProductTab from "./ProductTab";
 
-import  Title  from "./title";
+// import  Title  from "./title";
 
 function App() {
   return (
     <>
-    <Title/> 
+    
     <button>click me</button>
     <ProductTab/>
     </>

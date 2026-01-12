@@ -1,11 +1,13 @@
-import Myproduct from"./prodect";
-
+import Myprodect from "./Myprodect";
 function ProductTab(){
-    return(
+    let options = ["hi-tech","long-battery", "performance"];
+    // let options2 = { a:"hi-tech", b:"long-battery", c:"performance"};
+
+    return(                  
         <>
-        <Myproduct/>
-        <Myproduct/>
-        
+       <Myprodect title="Leptop" price={50000} features={options} />
+       {/* <Myprodect title="Mobile" price={20000} />
+       <Myprodect title="Tablet" price={"offer"} />      */}
         </>
     );
 }

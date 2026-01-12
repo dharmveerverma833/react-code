@@ -10,7 +10,7 @@
 }
 
 function Multiple(){
-    let a = 3;
+    let a = 5;
    let  items =[];
     for(let i= a;i<=10*a; i+=a){
         if(i == 20){
