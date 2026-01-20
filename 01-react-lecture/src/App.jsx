@@ -3,6 +3,8 @@ import "./App.css";
 import ProductTab from "./ProductTab";
 import MsgTab from "./MsgTab";
 import Activity  from "./Activity";
+import Button from "../react-3/Button";
+import Form from "../react-3/form";
 
 
 // import  Title  from "./title";
@@ -11,10 +13,12 @@ function App() {
   return (
     <>
     
-    <button>click me</button>
-    <ProductTab/>
+    {/* <button>click me</button> */}
+    {/* <ProductTab/>
     <MsgTab/>
-    <Activity/>
+    <Activity/> */}
+    {/* <Button/> */}
+   <Form/>
     </>
   )
 }

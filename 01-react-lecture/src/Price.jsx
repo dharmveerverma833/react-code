@@ -7,6 +7,8 @@ export default function Price({oldPrices,newPrices}){
         margin:"0 auto",
         width:"180px",
         backgroundColor:"yellow",
+        borderBottomLeftRadius:"12px",
+        borderBottomRightRadius:"12px",
     }
     let newStyle={
         fontWeight:"bold"
